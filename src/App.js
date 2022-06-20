@@ -1,46 +1,14 @@
-import NavBar from "./Components/NavBar";
-import Slider from "./Components/Slider";
-import Event from "./Components/Event";
-import { useEffect, useState } from "react";
-import axios from "axios";
-import "./Assets/Styles/App.css"
+import React from "react";
+import { Routes, Route} from "react-router-dom";
+import Home from "./Pages/Home";
+import Details from "./Pages/Details";
 function App() {
-  const [events, setEvents] = useState();
-
-  useEffect(() => {
-    axios
-      .get("http://localhost:3000/events/")
-      .then(function (response) {
-        setEvents(response.data);
-        console.log(response.data);
-      })
-      .catch(function (error) {
-        console.log(error);
-      });
-  }, []);
-
   return (
-    <div>
-      <NavBar></NavBar>
-      <Slider></Slider>
-      <div className="Event-List">
-        {events ? (
-          events.map((item) => (
-            <Event
-              key={item.id}
-              url={item.url}
-              name={item.name}
-              building={item.building}
-              city={item.city}
-              start-date={item.startdate}
-              end-date={item.enddate}
-            ></Event>
-          ))
-        ) : (
-          <div>Yükleniyor..</div>
-        )}
-      </div>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="details/:id" element={<Details />} />
+      <Route path="*" element={<h1>404 Not Found</h1>} />
+    </Routes>
   );
 }
 

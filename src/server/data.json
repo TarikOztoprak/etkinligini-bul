@@ -10,8 +10,8 @@
             "building": "Maximum Uniq Açıkhava",
             "address": "Maximum Uniq Açıkhava, İstanbul",
             "people": "Yalın",
-            "start-date": "29 Temmuz 2022 Cuma 21:00",
-            "end-date": "29 Temmuz 2022 Cuma 23:59"
+            "startdate": "29 Temmuz 2022 Cuma 21:00",
+            "enddate": "29 Temmuz 2022 Cuma 23:59"
         },
         {
             "id": 2,
@@ -23,8 +23,21 @@
             "building": "Maximum Uniq Açıkhava",
             "address": "Maximum Uniq Açıkhava, İstanbul",
             "people": "Yalın",
-            "start-date": "29 Temmuz 2022 Cuma 21:00",
-            "end-date": "29 Temmuz 2022 Cuma 23:59"
+            "startdate": "29 Temmuz 2022 Cuma 21:00",
+            "enddate": "29 Temmuz 2022 Cuma 23:59"
+        },
+        {
+            "id": 3,
+            "url": ["https://www.biletix.com/static/images/live/event/groupimages/bahceeetiyatooo256521836-003.png"],
+            "name": "KüçükÇiftlik Bahçe Tiyatrosu",
+            "content": "KüçükÇiftlik Park’ın, kültür sanata ve tiyatro sanatının güçlenmesine destek vermek amacıyla büyük bir yatırım yaparak hayata geçirdiği KüçükÇiftlik Bahçe Tiyatrosu’nda üçüncü sezon başlıyor! En başarılı tiyatro gruplarının en sevilen oyunlarıyla yaz boyunca devam edecek olan KüçükÇiftlik Bahçe Tiyatrosu, sürprizli programıyla bir kez daha hem tiyatroların hem de tiyatroseverlerin nefes almasını sağlayacak. KüçükÇiftlik Park’ın yeşil yüzü KüçükÇiftlik Bahçe’de, önceki yıllarda olduğu gibi bu yıl da URU organizasyonu ve Mey|Diageo kurumsal desteğiyle gerçekleşecek KüçükÇiftlik Bahçe Tiyatrosu, İstanbulluları yıldızların altında tiyatronun iyileştirici gücüyle buluşturacak. Şehrin eğlence mirası KüçükÇiftlik Park, 2020 yazında hayata geçirdiği KüçükÇiftlik Bahçe Tiyatrosu’yla, pandemi nedeniyle çok zor günler geçiren tiyatrolara iki sezon boyunca adeta can suyu oldu. 2020 ve 2021’in açıkhava sezonlarında toplam 21 farklı tiyatro ekibinin 37 temsili, 20 bine yakın seyirciyle buluştu. KüçükÇiftlik Bahçe Tiyatrosu, tiyatrolara yarattığı desteğin yanı sıra program kapsamında binlerce kişiyi istihdam ederek tüm sektöre önemli ölçüde gelir sağladı.",
+            "category": "Tiyatro",
+            "city": "İstanbul",
+            "building": "KüçükÇiflik Park",
+            "address": "KüçükÇiflik Park, İstanbul",
+            "people": "",
+            "startdate": "22 Haziran 2022",
+            "enddate": "31 Ağustos 2022"
         },
         {
             "id": 2,
@@ -36,8 +49,8 @@
             "building": "Maximum Uniq Açıkhava",
             "address": "Maximum Uniq Açıkhava, İstanbul",
             "people": "Yalın",
-            "start-date": "29 Temmuz 2022 Cuma 21:00",
-            "end-date": "29 Temmuz 2022 Cuma 23:59"
+            "startdate": "29 Temmuz 2022 Cuma 21:00",
+            "enddate": "29 Temmuz 2022 Cuma 23:59"
         },
         {
             "id": 2,
@@ -49,8 +62,8 @@
             "building": "Maximum Uniq Açıkhava",
             "address": "Maximum Uniq Açıkhava, İstanbul",
             "people": "Yalın",
-            "start-date": "29 Temmuz 2022 Cuma 21:00",
-            "end-date": "29 Temmuz 2022 Cuma 23:59"
+            "startdate": "29 Temmuz 2022 Cuma 21:00",
+            "enddate": "29 Temmuz 2022 Cuma 23:59"
         },
         {
             "id": 2,
@@ -62,8 +75,8 @@
             "building": "Maximum Uniq Açıkhava",
             "address": "Maximum Uniq Açıkhava, İstanbul",
             "people": "Yalın",
-            "start-date": "29 Temmuz 2022 Cuma 21:00",
-            "end-date": "29 Temmuz 2022 Cuma 23:59"
+            "startdate": "29 Temmuz 2022 Cuma 21:00",
+            "enddate": "29 Temmuz 2022 Cuma 23:59"
         },
         {
             "id": 2,
@@ -75,8 +88,8 @@
             "building": "Maximum Uniq Açıkhava",
             "address": "Maximum Uniq Açıkhava, İstanbul",
             "people": "Yalın",
-            "start-date": "29 Temmuz 2022 Cuma 21:00",
-            "end-date": "29 Temmuz 2022 Cuma 23:59"
+            "startdate": "29 Temmuz 2022 Cuma 21:00",
+            "enddate": "29 Temmuz 2022 Cuma 23:59"
         },
         {
             "id": 2,
@@ -88,242 +101,9 @@
             "building": "Maximum Uniq Açıkhava",
             "address": "Maximum Uniq Açıkhava, İstanbul",
             "people": "Yalın",
-            "start-date": "29 Temmuz 2022 Cuma 21:00",
-            "end-date": "29 Temmuz 2022 Cuma 23:59"
-        },
-        {
-            "id": 2,
-            "url": ["https://www.biletix.com/static/images/live/event/eventimages/15A18_yalinbkm.jpg"],
-            "name": "Yalın - Bir Yaz Akşamı \"Unutulmaz Şarkılar\" 2",
-            "content": "18 yıllık kariyer yolculuğu boyunca sevenlerinin kalbinde taht kuran ve seslendirdiği kendine özgü aşk şarkıları, büyüleyici sesi ve besteleri ile günümüze kadar milyonlarca dinleyici kitlesi yakalayan Yalın, bu sezon sahnelerde fırtınalar estiren “Unutulmaz Şarkılar” konser serisine Bir Yaz Akşamı “Unutulmaz Şarkılar” olarak Maximum Uniq Açıkhava’da devam ediyor.Yalın’ın görkemli sahne tasarımı ve bigband orkestrasıyla hem kalbimizde iz bırakan “Unutulmaz Şarkılar”ı, hem de en sevilen hitlerini bu defa yıldızların altında seslendireceği konser serisi, 29 Temmuz Cuma günü Maximum Uniq Açıkhava’da sevenleriyle buluşacak.",
-            "category": "Konser",
-            "city": "İstanbul",
-            "building": "Maximum Uniq Açıkhava",
-            "address": "Maximum Uniq Açıkhava, İstanbul",
-            "people": "Yalın",
-            "start-date": "29 Temmuz 2022 Cuma 21:00",
-            "end-date": "29 Temmuz 2022 Cuma 23:59"
-        },
-        {
-            "id": 2,
-            "url": ["https://www.biletix.com/static/images/live/event/eventimages/15A18_yalinbkm.jpg"],
-            "name": "Yalın - Bir Yaz Akşamı \"Unutulmaz Şarkılar\" 2",
-            "content": "18 yıllık kariyer yolculuğu boyunca sevenlerinin kalbinde taht kuran ve seslendirdiği kendine özgü aşk şarkıları, büyüleyici sesi ve besteleri ile günümüze kadar milyonlarca dinleyici kitlesi yakalayan Yalın, bu sezon sahnelerde fırtınalar estiren “Unutulmaz Şarkılar” konser serisine Bir Yaz Akşamı “Unutulmaz Şarkılar” olarak Maximum Uniq Açıkhava’da devam ediyor.Yalın’ın görkemli sahne tasarımı ve bigband orkestrasıyla hem kalbimizde iz bırakan “Unutulmaz Şarkılar”ı, hem de en sevilen hitlerini bu defa yıldızların altında seslendireceği konser serisi, 29 Temmuz Cuma günü Maximum Uniq Açıkhava’da sevenleriyle buluşacak.",
-            "category": "Konser",
-            "city": "İstanbul",
-            "building": "Maximum Uniq Açıkhava",
-            "address": "Maximum Uniq Açıkhava, İstanbul",
-            "people": "Yalın",
-            "start-date": "29 Temmuz 2022 Cuma 21:00",
-            "end-date": "29 Temmuz 2022 Cuma 23:59"
-        },
-        {
-            "id": 2,
-            "url": ["https://www.biletix.com/static/images/live/event/eventimages/15A18_yalinbkm.jpg"],
-            "name": "Yalın - Bir Yaz Akşamı \"Unutulmaz Şarkılar\" 2",
-            "content": "18 yıllık kariyer yolculuğu boyunca sevenlerinin kalbinde taht kuran ve seslendirdiği kendine özgü aşk şarkıları, büyüleyici sesi ve besteleri ile günümüze kadar milyonlarca dinleyici kitlesi yakalayan Yalın, bu sezon sahnelerde fırtınalar estiren “Unutulmaz Şarkılar” konser serisine Bir Yaz Akşamı “Unutulmaz Şarkılar” olarak Maximum Uniq Açıkhava’da devam ediyor.Yalın’ın görkemli sahne tasarımı ve bigband orkestrasıyla hem kalbimizde iz bırakan “Unutulmaz Şarkılar”ı, hem de en sevilen hitlerini bu defa yıldızların altında seslendireceği konser serisi, 29 Temmuz Cuma günü Maximum Uniq Açıkhava’da sevenleriyle buluşacak.",
-            "category": "Konser",
-            "city": "İstanbul",
-            "building": "Maximum Uniq Açıkhava",
-            "address": "Maximum Uniq Açıkhava, İstanbul",
-            "people": "Yalın",
-            "start-date": "29 Temmuz 2022 Cuma 21:00",
-            "end-date": "29 Temmuz 2022 Cuma 23:59"
-        },
-        {
-            "id": 2,
-            "url": ["https://www.biletix.com/static/images/live/event/eventimages/15A18_yalinbkm.jpg"],
-            "name": "Yalın - Bir Yaz Akşamı \"Unutulmaz Şarkılar\" 2",
-            "content": "18 yıllık kariyer yolculuğu boyunca sevenlerinin kalbinde taht kuran ve seslendirdiği kendine özgü aşk şarkıları, büyüleyici sesi ve besteleri ile günümüze kadar milyonlarca dinleyici kitlesi yakalayan Yalın, bu sezon sahnelerde fırtınalar estiren “Unutulmaz Şarkılar” konser serisine Bir Yaz Akşamı “Unutulmaz Şarkılar” olarak Maximum Uniq Açıkhava’da devam ediyor.Yalın’ın görkemli sahne tasarımı ve bigband orkestrasıyla hem kalbimizde iz bırakan “Unutulmaz Şarkılar”ı, hem de en sevilen hitlerini bu defa yıldızların altında seslendireceği konser serisi, 29 Temmuz Cuma günü Maximum Uniq Açıkhava’da sevenleriyle buluşacak.",
-            "category": "Konser",
-            "city": "İstanbul",
-            "building": "Maximum Uniq Açıkhava",
-            "address": "Maximum Uniq Açıkhava, İstanbul",
-            "people": "Yalın",
-            "start-date": "29 Temmuz 2022 Cuma 21:00",
-            "end-date": "29 Temmuz 2022 Cuma 23:59"
-        },
-        {
-            "id": 2,
-            "url": ["https://www.biletix.com/static/images/live/event/eventimages/15A18_yalinbkm.jpg"],
-            "name": "Yalın - Bir Yaz Akşamı \"Unutulmaz Şarkılar\" 2",
-            "content": "18 yıllık kariyer yolculuğu boyunca sevenlerinin kalbinde taht kuran ve seslendirdiği kendine özgü aşk şarkıları, büyüleyici sesi ve besteleri ile günümüze kadar milyonlarca dinleyici kitlesi yakalayan Yalın, bu sezon sahnelerde fırtınalar estiren “Unutulmaz Şarkılar” konser serisine Bir Yaz Akşamı “Unutulmaz Şarkılar” olarak Maximum Uniq Açıkhava’da devam ediyor.Yalın’ın görkemli sahne tasarımı ve bigband orkestrasıyla hem kalbimizde iz bırakan “Unutulmaz Şarkılar”ı, hem de en sevilen hitlerini bu defa yıldızların altında seslendireceği konser serisi, 29 Temmuz Cuma günü Maximum Uniq Açıkhava’da sevenleriyle buluşacak.",
-            "category": "Konser",
-            "city": "İstanbul",
-            "building": "Maximum Uniq Açıkhava",
-            "address": "Maximum Uniq Açıkhava, İstanbul",
-            "people": "Yalın",
-            "start-date": "29 Temmuz 2022 Cuma 21:00",
-            "end-date": "29 Temmuz 2022 Cuma 23:59"
-        },
-        {
-            "id": 2,
-            "url": ["https://www.biletix.com/static/images/live/event/eventimages/15A18_yalinbkm.jpg"],
-            "name": "Yalın - Bir Yaz Akşamı \"Unutulmaz Şarkılar\" 2",
-            "content": "18 yıllık kariyer yolculuğu boyunca sevenlerinin kalbinde taht kuran ve seslendirdiği kendine özgü aşk şarkıları, büyüleyici sesi ve besteleri ile günümüze kadar milyonlarca dinleyici kitlesi yakalayan Yalın, bu sezon sahnelerde fırtınalar estiren “Unutulmaz Şarkılar” konser serisine Bir Yaz Akşamı “Unutulmaz Şarkılar” olarak Maximum Uniq Açıkhava’da devam ediyor.Yalın’ın görkemli sahne tasarımı ve bigband orkestrasıyla hem kalbimizde iz bırakan “Unutulmaz Şarkılar”ı, hem de en sevilen hitlerini bu defa yıldızların altında seslendireceği konser serisi, 29 Temmuz Cuma günü Maximum Uniq Açıkhava’da sevenleriyle buluşacak.",
-            "category": "Konser",
-            "city": "İstanbul",
-            "building": "Maximum Uniq Açıkhava",
-            "address": "Maximum Uniq Açıkhava, İstanbul",
-            "people": "Yalın",
-            "start-date": "29 Temmuz 2022 Cuma 21:00",
-            "end-date": "29 Temmuz 2022 Cuma 23:59"
-        },
-        {
-            "id": 2,
-            "url": ["https://www.biletix.com/static/images/live/event/eventimages/15A18_yalinbkm.jpg"],
-            "name": "Yalın - Bir Yaz Akşamı \"Unutulmaz Şarkılar\" 2",
-            "content": "18 yıllık kariyer yolculuğu boyunca sevenlerinin kalbinde taht kuran ve seslendirdiği kendine özgü aşk şarkıları, büyüleyici sesi ve besteleri ile günümüze kadar milyonlarca dinleyici kitlesi yakalayan Yalın, bu sezon sahnelerde fırtınalar estiren “Unutulmaz Şarkılar” konser serisine Bir Yaz Akşamı “Unutulmaz Şarkılar” olarak Maximum Uniq Açıkhava’da devam ediyor.Yalın’ın görkemli sahne tasarımı ve bigband orkestrasıyla hem kalbimizde iz bırakan “Unutulmaz Şarkılar”ı, hem de en sevilen hitlerini bu defa yıldızların altında seslendireceği konser serisi, 29 Temmuz Cuma günü Maximum Uniq Açıkhava’da sevenleriyle buluşacak.",
-            "category": "Konser",
-            "city": "İstanbul",
-            "building": "Maximum Uniq Açıkhava",
-            "address": "Maximum Uniq Açıkhava, İstanbul",
-            "people": "Yalın",
-            "start-date": "29 Temmuz 2022 Cuma 21:00",
-            "end-date": "29 Temmuz 2022 Cuma 23:59"
-        },
-        {
-            "id": 2,
-            "url": ["https://www.biletix.com/static/images/live/event/eventimages/15A18_yalinbkm.jpg"],
-            "name": "Yalın - Bir Yaz Akşamı \"Unutulmaz Şarkılar\" 2",
-            "content": "18 yıllık kariyer yolculuğu boyunca sevenlerinin kalbinde taht kuran ve seslendirdiği kendine özgü aşk şarkıları, büyüleyici sesi ve besteleri ile günümüze kadar milyonlarca dinleyici kitlesi yakalayan Yalın, bu sezon sahnelerde fırtınalar estiren “Unutulmaz Şarkılar” konser serisine Bir Yaz Akşamı “Unutulmaz Şarkılar” olarak Maximum Uniq Açıkhava’da devam ediyor.Yalın’ın görkemli sahne tasarımı ve bigband orkestrasıyla hem kalbimizde iz bırakan “Unutulmaz Şarkılar”ı, hem de en sevilen hitlerini bu defa yıldızların altında seslendireceği konser serisi, 29 Temmuz Cuma günü Maximum Uniq Açıkhava’da sevenleriyle buluşacak.",
-            "category": "Konser",
-            "city": "İstanbul",
-            "building": "Maximum Uniq Açıkhava",
-            "address": "Maximum Uniq Açıkhava, İstanbul",
-            "people": "Yalın",
-            "start-date": "29 Temmuz 2022 Cuma 21:00",
-            "end-date": "29 Temmuz 2022 Cuma 23:59"
-        },
-        {
-            "id": 2,
-            "url": ["https://www.biletix.com/static/images/live/event/eventimages/15A18_yalinbkm.jpg"],
-            "name": "Yalın - Bir Yaz Akşamı \"Unutulmaz Şarkılar\" 2",
-            "content": "18 yıllık kariyer yolculuğu boyunca sevenlerinin kalbinde taht kuran ve seslendirdiği kendine özgü aşk şarkıları, büyüleyici sesi ve besteleri ile günümüze kadar milyonlarca dinleyici kitlesi yakalayan Yalın, bu sezon sahnelerde fırtınalar estiren “Unutulmaz Şarkılar” konser serisine Bir Yaz Akşamı “Unutulmaz Şarkılar” olarak Maximum Uniq Açıkhava’da devam ediyor.Yalın’ın görkemli sahne tasarımı ve bigband orkestrasıyla hem kalbimizde iz bırakan “Unutulmaz Şarkılar”ı, hem de en sevilen hitlerini bu defa yıldızların altında seslendireceği konser serisi, 29 Temmuz Cuma günü Maximum Uniq Açıkhava’da sevenleriyle buluşacak.",
-            "category": "Konser",
-            "city": "İstanbul",
-            "building": "Maximum Uniq Açıkhava",
-            "address": "Maximum Uniq Açıkhava, İstanbul",
-            "people": "Yalın",
-            "start-date": "29 Temmuz 2022 Cuma 21:00",
-            "end-date": "29 Temmuz 2022 Cuma 23:59"
-        },
-        {
-            "id": 2,
-            "url": ["https://www.biletix.com/static/images/live/event/eventimages/15A18_yalinbkm.jpg"],
-            "name": "Yalın - Bir Yaz Akşamı \"Unutulmaz Şarkılar\" 2",
-            "content": "18 yıllık kariyer yolculuğu boyunca sevenlerinin kalbinde taht kuran ve seslendirdiği kendine özgü aşk şarkıları, büyüleyici sesi ve besteleri ile günümüze kadar milyonlarca dinleyici kitlesi yakalayan Yalın, bu sezon sahnelerde fırtınalar estiren “Unutulmaz Şarkılar” konser serisine Bir Yaz Akşamı “Unutulmaz Şarkılar” olarak Maximum Uniq Açıkhava’da devam ediyor.Yalın’ın görkemli sahne tasarımı ve bigband orkestrasıyla hem kalbimizde iz bırakan “Unutulmaz Şarkılar”ı, hem de en sevilen hitlerini bu defa yıldızların altında seslendireceği konser serisi, 29 Temmuz Cuma günü Maximum Uniq Açıkhava’da sevenleriyle buluşacak.",
-            "category": "Konser",
-            "city": "İstanbul",
-            "building": "Maximum Uniq Açıkhava",
-            "address": "Maximum Uniq Açıkhava, İstanbul",
-            "people": "Yalın",
-            "start-date": "29 Temmuz 2022 Cuma 21:00",
-            "end-date": "29 Temmuz 2022 Cuma 23:59"
-        },
-        {
-            "id": 2,
-            "url": ["https://www.biletix.com/static/images/live/event/eventimages/15A18_yalinbkm.jpg"],
-            "name": "Yalın - Bir Yaz Akşamı \"Unutulmaz Şarkılar\" 2",
-            "content": "18 yıllık kariyer yolculuğu boyunca sevenlerinin kalbinde taht kuran ve seslendirdiği kendine özgü aşk şarkıları, büyüleyici sesi ve besteleri ile günümüze kadar milyonlarca dinleyici kitlesi yakalayan Yalın, bu sezon sahnelerde fırtınalar estiren “Unutulmaz Şarkılar” konser serisine Bir Yaz Akşamı “Unutulmaz Şarkılar” olarak Maximum Uniq Açıkhava’da devam ediyor.Yalın’ın görkemli sahne tasarımı ve bigband orkestrasıyla hem kalbimizde iz bırakan “Unutulmaz Şarkılar”ı, hem de en sevilen hitlerini bu defa yıldızların altında seslendireceği konser serisi, 29 Temmuz Cuma günü Maximum Uniq Açıkhava’da sevenleriyle buluşacak.",
-            "category": "Konser",
-            "city": "İstanbul",
-            "building": "Maximum Uniq Açıkhava",
-            "address": "Maximum Uniq Açıkhava, İstanbul",
-            "people": "Yalın",
-            "start-date": "29 Temmuz 2022 Cuma 21:00",
-            "end-date": "29 Temmuz 2022 Cuma 23:59"
-        },
-        {
-            "id": 2,
-            "url": ["https://www.biletix.com/static/images/live/event/eventimages/15A18_yalinbkm.jpg"],
-            "name": "Yalın - Bir Yaz Akşamı \"Unutulmaz Şarkılar\" 2",
-            "content": "18 yıllık kariyer yolculuğu boyunca sevenlerinin kalbinde taht kuran ve seslendirdiği kendine özgü aşk şarkıları, büyüleyici sesi ve besteleri ile günümüze kadar milyonlarca dinleyici kitlesi yakalayan Yalın, bu sezon sahnelerde fırtınalar estiren “Unutulmaz Şarkılar” konser serisine Bir Yaz Akşamı “Unutulmaz Şarkılar” olarak Maximum Uniq Açıkhava’da devam ediyor.Yalın’ın görkemli sahne tasarımı ve bigband orkestrasıyla hem kalbimizde iz bırakan “Unutulmaz Şarkılar”ı, hem de en sevilen hitlerini bu defa yıldızların altında seslendireceği konser serisi, 29 Temmuz Cuma günü Maximum Uniq Açıkhava’da sevenleriyle buluşacak.",
-            "category": "Konser",
-            "city": "İstanbul",
-            "building": "Maximum Uniq Açıkhava",
-            "address": "Maximum Uniq Açıkhava, İstanbul",
-            "people": "Yalın",
-            "start-date": "29 Temmuz 2022 Cuma 21:00",
-            "end-date": "29 Temmuz 2022 Cuma 23:59"
-        },
-        {
-            "id": 2,
-            "url": ["https://www.biletix.com/static/images/live/event/eventimages/15A18_yalinbkm.jpg"],
-            "name": "Yalın - Bir Yaz Akşamı \"Unutulmaz Şarkılar\" 2",
-            "content": "18 yıllık kariyer yolculuğu boyunca sevenlerinin kalbinde taht kuran ve seslendirdiği kendine özgü aşk şarkıları, büyüleyici sesi ve besteleri ile günümüze kadar milyonlarca dinleyici kitlesi yakalayan Yalın, bu sezon sahnelerde fırtınalar estiren “Unutulmaz Şarkılar” konser serisine Bir Yaz Akşamı “Unutulmaz Şarkılar” olarak Maximum Uniq Açıkhava’da devam ediyor.Yalın’ın görkemli sahne tasarımı ve bigband orkestrasıyla hem kalbimizde iz bırakan “Unutulmaz Şarkılar”ı, hem de en sevilen hitlerini bu defa yıldızların altında seslendireceği konser serisi, 29 Temmuz Cuma günü Maximum Uniq Açıkhava’da sevenleriyle buluşacak.",
-            "category": "Konser",
-            "city": "İstanbul",
-            "building": "Maximum Uniq Açıkhava",
-            "address": "Maximum Uniq Açıkhava, İstanbul",
-            "people": "Yalın",
-            "start-date": "29 Temmuz 2022 Cuma 21:00",
-            "end-date": "29 Temmuz 2022 Cuma 23:59"
-        },
-        {
-            "id": 2,
-            "url": ["https://www.biletix.com/static/images/live/event/eventimages/15A18_yalinbkm.jpg"],
-            "name": "Yalın - Bir Yaz Akşamı \"Unutulmaz Şarkılar\" 2",
-            "content": "18 yıllık kariyer yolculuğu boyunca sevenlerinin kalbinde taht kuran ve seslendirdiği kendine özgü aşk şarkıları, büyüleyici sesi ve besteleri ile günümüze kadar milyonlarca dinleyici kitlesi yakalayan Yalın, bu sezon sahnelerde fırtınalar estiren “Unutulmaz Şarkılar” konser serisine Bir Yaz Akşamı “Unutulmaz Şarkılar” olarak Maximum Uniq Açıkhava’da devam ediyor.Yalın’ın görkemli sahne tasarımı ve bigband orkestrasıyla hem kalbimizde iz bırakan “Unutulmaz Şarkılar”ı, hem de en sevilen hitlerini bu defa yıldızların altında seslendireceği konser serisi, 29 Temmuz Cuma günü Maximum Uniq Açıkhava’da sevenleriyle buluşacak.",
-            "category": "Konser",
-            "city": "İstanbul",
-            "building": "Maximum Uniq Açıkhava",
-            "address": "Maximum Uniq Açıkhava, İstanbul",
-            "people": "Yalın",
-            "start-date": "29 Temmuz 2022 Cuma 21:00",
-            "end-date": "29 Temmuz 2022 Cuma 23:59"
-        },
-        {
-            "id": 2,
-            "url": ["https://www.biletix.com/static/images/live/event/eventimages/15A18_yalinbkm.jpg"],
-            "name": "Yalın - Bir Yaz Akşamı \"Unutulmaz Şarkılar\" 2",
-            "content": "18 yıllık kariyer yolculuğu boyunca sevenlerinin kalbinde taht kuran ve seslendirdiği kendine özgü aşk şarkıları, büyüleyici sesi ve besteleri ile günümüze kadar milyonlarca dinleyici kitlesi yakalayan Yalın, bu sezon sahnelerde fırtınalar estiren “Unutulmaz Şarkılar” konser serisine Bir Yaz Akşamı “Unutulmaz Şarkılar” olarak Maximum Uniq Açıkhava’da devam ediyor.Yalın’ın görkemli sahne tasarımı ve bigband orkestrasıyla hem kalbimizde iz bırakan “Unutulmaz Şarkılar”ı, hem de en sevilen hitlerini bu defa yıldızların altında seslendireceği konser serisi, 29 Temmuz Cuma günü Maximum Uniq Açıkhava’da sevenleriyle buluşacak.",
-            "category": "Konser",
-            "city": "İstanbul",
-            "building": "Maximum Uniq Açıkhava",
-            "address": "Maximum Uniq Açıkhava, İstanbul",
-            "people": "Yalın",
-            "start-date": "29 Temmuz 2022 Cuma 21:00",
-            "end-date": "29 Temmuz 2022 Cuma 23:59"
-        },
-        {
-            "id": 2,
-            "url": ["https://www.biletix.com/static/images/live/event/eventimages/15A18_yalinbkm.jpg"],
-            "name": "Yalın - Bir Yaz Akşamı \"Unutulmaz Şarkılar\" 2",
-            "content": "18 yıllık kariyer yolculuğu boyunca sevenlerinin kalbinde taht kuran ve seslendirdiği kendine özgü aşk şarkıları, büyüleyici sesi ve besteleri ile günümüze kadar milyonlarca dinleyici kitlesi yakalayan Yalın, bu sezon sahnelerde fırtınalar estiren “Unutulmaz Şarkılar” konser serisine Bir Yaz Akşamı “Unutulmaz Şarkılar” olarak Maximum Uniq Açıkhava’da devam ediyor.Yalın’ın görkemli sahne tasarımı ve bigband orkestrasıyla hem kalbimizde iz bırakan “Unutulmaz Şarkılar”ı, hem de en sevilen hitlerini bu defa yıldızların altında seslendireceği konser serisi, 29 Temmuz Cuma günü Maximum Uniq Açıkhava’da sevenleriyle buluşacak.",
-            "category": "Konser",
-            "city": "İstanbul",
-            "building": "Maximum Uniq Açıkhava",
-            "address": "Maximum Uniq Açıkhava, İstanbul",
-            "people": "Yalın",
-            "start-date": "29 Temmuz 2022 Cuma 21:00",
-            "end-date": "29 Temmuz 2022 Cuma 23:59"
-        },
-        {
-            "id": 2,
-            "url": ["https://www.biletix.com/static/images/live/event/eventimages/15A18_yalinbkm.jpg"],
-            "name": "Yalın - Bir Yaz Akşamı \"Unutulmaz Şarkılar\" 2",
-            "content": "18 yıllık kariyer yolculuğu boyunca sevenlerinin kalbinde taht kuran ve seslendirdiği kendine özgü aşk şarkıları, büyüleyici sesi ve besteleri ile günümüze kadar milyonlarca dinleyici kitlesi yakalayan Yalın, bu sezon sahnelerde fırtınalar estiren “Unutulmaz Şarkılar” konser serisine Bir Yaz Akşamı “Unutulmaz Şarkılar” olarak Maximum Uniq Açıkhava’da devam ediyor.Yalın’ın görkemli sahne tasarımı ve bigband orkestrasıyla hem kalbimizde iz bırakan “Unutulmaz Şarkılar”ı, hem de en sevilen hitlerini bu defa yıldızların altında seslendireceği konser serisi, 29 Temmuz Cuma günü Maximum Uniq Açıkhava’da sevenleriyle buluşacak.",
-            "category": "Konser",
-            "city": "İstanbul",
-            "building": "Maximum Uniq Açıkhava",
-            "address": "Maximum Uniq Açıkhava, İstanbul",
-            "people": "Yalın",
-            "start-date": "29 Temmuz 2022 Cuma 21:00",
-            "end-date": "29 Temmuz 2022 Cuma 23:59"
-        },
-        {
-            "id": 2,
-            "url": ["https://www.biletix.com/static/images/live/event/eventimages/15A18_yalinbkm.jpg"],
-            "name": "Yalın - Bir Yaz Akşamı \"Unutulmaz Şarkılar\" 2",
-            "content": "18 yıllık kariyer yolculuğu boyunca sevenlerinin kalbinde taht kuran ve seslendirdiği kendine özgü aşk şarkıları, büyüleyici sesi ve besteleri ile günümüze kadar milyonlarca dinleyici kitlesi yakalayan Yalın, bu sezon sahnelerde fırtınalar estiren “Unutulmaz Şarkılar” konser serisine Bir Yaz Akşamı “Unutulmaz Şarkılar” olarak Maximum Uniq Açıkhava’da devam ediyor.Yalın’ın görkemli sahne tasarımı ve bigband orkestrasıyla hem kalbimizde iz bırakan “Unutulmaz Şarkılar”ı, hem de en sevilen hitlerini bu defa yıldızların altında seslendireceği konser serisi, 29 Temmuz Cuma günü Maximum Uniq Açıkhava’da sevenleriyle buluşacak.",
-            "category": "Konser",
-            "city": "İstanbul",
-            "building": "Maximum Uniq Açıkhava",
-            "address": "Maximum Uniq Açıkhava, İstanbul",
-            "people": "Yalın",
-            "start-date": "29 Temmuz 2022 Cuma 21:00",
-            "end-date": "29 Temmuz 2022 Cuma 23:59"
+            "startdate": "29 Temmuz 2022 Cuma 21:00",
+            "enddate": "29 Temmuz 2022 Cuma 23:59"
         }
+       
     ]
 }
