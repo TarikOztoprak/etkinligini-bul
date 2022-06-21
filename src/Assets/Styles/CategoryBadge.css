@@ -1,7 +1,9 @@
 .Category-Badge{
     width: 100px;
-    background-color: aqua;
+    background-color: #185c70;
+    color: #F5DF99;
     border-radius: 50px;
     text-align: center;
     font-size: 0.8em;
+    margin-top: 10px;
 }

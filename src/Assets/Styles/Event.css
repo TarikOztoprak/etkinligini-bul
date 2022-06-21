@@ -1,16 +1,21 @@
 .Event{
     width: 300px;
-    background-color: #5FD068;
+    background-color: #4B8673;
     border: 1px solid black;
+    color: #F5DF99;
     margin-bottom: 50px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .Event:hover{
-    box-shadow: 5px 5px 0px 0px;
+    box-shadow: 2px 2px 0px 0px #185c70;
+
 }
 
-.Event-Img{
+.event-img{
     width: 300px;
     max-height: 300px;
     text-align: center;
@@ -26,6 +31,8 @@
     background-color: #185c70;
     font-size: 1.1em;
     text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .Details-Button:hover{

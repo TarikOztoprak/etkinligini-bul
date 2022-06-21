@@ -1,12 +1,13 @@
 import NavBar from "../Components/NavBar";
 import Event from "../Components/Event";
+import Filter from "../Components/Filter";
+import Slider from "../Components/Slider";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import "../Assets/Styles/Home.css"
-
 function Home() {
     const [events, setEvents] = useState();
-
+    const [popular, setPopular] = useState();
     useEffect(() => {
       axios
         .get("http://localhost:3000/events/")
@@ -17,13 +18,23 @@ function Home() {
         .catch(function (error) {
           console.log(error);
         });
+
+        axios
+        .get("http://localhost:3000/popular/")
+        .then(function (response) {
+          setPopular(response.data);
+          console.log(response.data);
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
     }, []);
   
     return (
       <div>
         <NavBar></NavBar>
-  
-        <div className="Event-List">
+        <Filter/>
+        <div className="event-list">
           {events ? (
             events.map((item) => (
               <Event
@@ -32,15 +43,21 @@ function Home() {
                 url={item.url}
                 name={item.name}
                 category={item.category}
-                building={item.building}
+                place={item.place}
                 city={item.city}
                 startdate={item.startdate}
                 enddate={item.enddate}
+                address={item.address}
               ></Event>
             ))
           ) : (
             <div>Yükleniyor..</div>
           )}
+        </div>
+       
+        <div className="slider-container">
+          <h1 style={{textAlign: "center"}}>Popüler Etkinlikler</h1>
+          <Slider urls={popular}/>
         </div>
       </div>
     );
