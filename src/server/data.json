@@ -12,12 +12,12 @@
             "people": "Yalın",
             "startdate": "29 Temmuz 2022",
             "enddate": "30 Temmuz 2022",
+            "price": [100, 150, 200],
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3006.2130103147365!2d29.005392215417213!3d41.108038779290894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab5406ff2f4cf%3A0x4b4de6768dde3a81!2sMaximum%20Uniq!5e0!3m2!1str!2str!4v1655729634185!5m2!1str!2str"
-            
         },
         {
             "id": 2,
-            "url": ["https://www.biletix.com/static/images/live/event/groupimages/bahceeetiyatooo256521836-003.png"],
+            "url": ["https://kulturlimited.com/wp-content/uploads/2021/06/KucukCiftlik-Bahce-Tiyatrosu-1.jpg"],
             "name": "KüçükÇiftlik Bahçe Tiyatrosu",
             "content": "KüçükÇiftlik Park’ın, kültür sanata ve tiyatro sanatının güçlenmesine destek vermek amacıyla büyük bir yatırım yaparak hayata geçirdiği KüçükÇiftlik Bahçe Tiyatrosu’nda üçüncü sezon başlıyor! En başarılı tiyatro gruplarının en sevilen oyunlarıyla yaz boyunca devam edecek olan KüçükÇiftlik Bahçe Tiyatrosu, sürprizli programıyla bir kez daha hem tiyatroların hem de tiyatroseverlerin nefes almasını sağlayacak. KüçükÇiftlik Park’ın yeşil yüzü KüçükÇiftlik Bahçe’de, önceki yıllarda olduğu gibi bu yıl da URU organizasyonu ve Mey|Diageo kurumsal desteğiyle gerçekleşecek KüçükÇiftlik Bahçe Tiyatrosu, İstanbulluları yıldızların altında tiyatronun iyileştirici gücüyle buluşturacak. Şehrin eğlence mirası KüçükÇiftlik Park, 2020 yazında hayata geçirdiği KüçükÇiftlik Bahçe Tiyatrosu’yla, pandemi nedeniyle çok zor günler geçiren tiyatrolara iki sezon boyunca adeta can suyu oldu. 2020 ve 2021’in açıkhava sezonlarında toplam 21 farklı tiyatro ekibinin 37 temsili, 20 bine yakın seyirciyle buluştu. KüçükÇiftlik Bahçe Tiyatrosu, tiyatrolara yarattığı desteğin yanı sıra program kapsamında binlerce kişiyi istihdam ederek tüm sektöre önemli ölçüde gelir sağladı.",
             "category": "Tiyatro",
@@ -27,11 +27,12 @@
             "people": "",
             "startdate": "22 Haziran 2022",
             "enddate": "31 Ağustos 2022",
+            "price": [100, 150, 200],
             "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12036.761633071563!2d28.99297!3d41.042965!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1a13d9680e131720!2zS8O8w6fDvGvDp2lmdGxpayBQYXJr!5e0!3m2!1str!2str!4v1655787413250!5m2!1str!2str"
         },
         {
             "id": 3,
-            "url": ["https://www.biletix.com/static/images/live/event/eventimages/izartgemi.png"],
+            "url": ["https://i0.wp.com/rayhaber.com/wp-content/uploads/2020/11/dunyada-ilk-gemi-ne-zaman-yapildi-kullanim-amaclarina-gore-gemi-turleri.jpg?fit=1424%2C800&ssl=1"],
             "name": "İzArt Resim Workshop - Gemi",
             "content": "Workshoplarımıza katılabilmeniz için tecrübeye gerek yoktur, kendinizi ve çocuk ruhunuzu alıp gelmeniz yeterli. Alanında uzman eğitmenlerimiz adım adım yanınızda olacaklardır. Etkinlik sonunda oluşturmuş olduğunuz eseri yanınızda götürebileceksiniz ve evinizin en sevdiğiniz köşesini süsleyecek..",
             "category": "Sanat",
@@ -41,11 +42,12 @@
             "people": "",
             "startdate": "21 Haziran 2022",
             "enddate": "22 Haziran 2022",
+            "price": [100, 150, 200],
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3127.4135142838218!2d27.17586691482875!3d38.38568688454945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b9631419d5ad57%3A0x72b070b3ef6a71b8!2sTenten%20Buca!5e0!3m2!1str!2str!4v1655811381345!5m2!1str!2str"
         },
         {
             "id": 4,
-            "url": ["https://www.biletix.com/static/images/live/event/eventimages/sofi-tukkerr.png"],
+            "url": ["https://i.ytimg.com/vi/6yj1Gcx8huQ/maxresdefault.jpg"],
             "name": "Sofi Tukker",
             "content": "Drinkee, Batshit gibi uluslararası hitlere imza atan, 2017’de Grammy’e aday gösterilen ikili, kısa sürede dans pistlerinin vazgeçilmez gruplarından biri oldu. Sophie Hawley-Weld ve Tucker Halpern’in güçlerini birleştirerek kurduğu Sofi Tukker, 3 ayrı şehirdeki 3 farklı konser için Epifoni organizasyonu ile ülkemize geliyor. Grup, 30 Eylül akşamı İstanbul KüçükÇiftlik Park'ta, 1 Ekim Ankara ODTÜ MD Vişnelik Çim Amfi ve 2 Ekim gecesi İzmir'de İzmir Arena'da sahne alacak.  90’ların house müziğinden ilham alan, jungle pop türünde uluslararası hitlere imza atan ikili, müzikseverlere dans dolu  unutulmaz bir akşam yaşatacak.",
             "category": "Konser",
@@ -55,6 +57,7 @@
             "people": "Sofi Tukker",
             "startdate": "1 Ekim 2022",
             "enddate": "2 Ekim 2022",
+            "price": [100, 150, 200],
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12244.039302190928!2d32.77611160781249!3d39.896412300000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d3461a19d4a4a7%3A0x334402f85facc335!2sODT%C3%9C%20Mezunlari%20Derne%C4%9Fi%20Vi%C5%9Fnelik%20Tesisleri!5e0!3m2!1str!2str!4v1655811802157!5m2!1str!2str"
         },
         {
@@ -69,6 +72,7 @@
             "people": "Tolga Çevik",
             "startdate": "8 Ağustos 2022",
             "enddate": "9 Ağustos 2022",
+            "price": [100, 150, 200],
             "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12502.21786092572!2d27.1482116!3d38.42866!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3122740e16de75b2!2zQXRhdMO8cmsgQcOnxLFrIEhhdmEgVGl5YXRyb3N1!5e0!3m2!1str!2str!4v1655843585490!5m2!1str!2str"
         },
         {
@@ -83,6 +87,7 @@
             "people": "",
             "startdate": "10 Ağustos 2022",
             "enddate": "11 Ağustos 2022",
+            "price": [100, 150, 200],
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.6328799431985!2d29.025859015413374!3d40.98951907930263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9537fe4a07b%3A0xa64b0d8e28e97d51!2sAnkaworkshop!5e0!3m2!1str!2str!4v1655843029687!5m2!1str!2str"
         },
         {
@@ -97,6 +102,7 @@
             "people": "Ibrahim Maalouf",
             "startdate": "29 Haziran 2022",
             "enddate": "30 Haziran 2022",
+            "price": [100, 150, 200],
             "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12024.71754141873!2d29.0077032!3d41.1087732!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x93d7757dd34b126d!2sVolkswagen%20Arena!5e0!3m2!1str!2str!4v1655844263623!5m2!1str!2str"
         },
         {
@@ -111,8 +117,9 @@
             "people": "Ibrahim Maalouf",
             "startdate": "1 Ekim 2022",
             "enddate": "2 Ekim 2022",
+            "price": [100, 150, 200],
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.0486480157915!2d28.987841414915664!3d41.046065225048494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab77253099bb5%3A0xa73a3d0b8b295da9!2sCemil%20Topuzlu%20A%C3%A7%C4%B1k%20Hava%20Tiyatrosu!5e0!3m2!1str!2str!4v1655844614017!5m2!1str!2str" 
         }
     ],
-    "popular":["https://www.mahalligundem.com/images/haberler/2022/04/yalin-dan-yeni-rekor-konser-biletleri-konsere-40-gun-kala-tukendi.jpg", "https://www.biletix.com/static/images/live/event/groupimages/bahceeetiyatooo256521836-003.png","https://www.biletix.com/static/images/live/event/eventimages/izartgemi.png"]
+    "popular":["https://www.mahalligundem.com/images/haberler/2022/04/yalin-dan-yeni-rekor-konser-biletleri-konsere-40-gun-kala-tukendi.jpg", "https://kulturlimited.com/wp-content/uploads/2021/06/KucukCiftlik-Bahce-Tiyatrosu-1.jpg","https://i.ytimg.com/vi/6yj1Gcx8huQ/maxresdefault.jpg" , "https://iasbh.tmgrup.com.tr/24a59c/650/344/0/90/2048/1167?u=http://i.sabah.com.tr/sbh/2017/05/20/murat-bozdan-buyuleyici-konser-1495279715865.jpg"]
 }

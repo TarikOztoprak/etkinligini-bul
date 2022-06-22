@@ -4,41 +4,56 @@ import Filter from "../Components/Filter";
 import Slider from "../Components/Slider";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import "../Assets/Styles/Home.css"
+import "../Assets/Styles/Home.css";
 function Home() {
-    const [events, setEvents] = useState();
-    const [popular, setPopular] = useState();
-    useEffect(() => {
-      axios
-        .get("http://localhost:3000/events/")
-        .then(function (response) {
-          setEvents(response.data);
-          console.log(response.data);
-        })
-        .catch(function (error) {
-          console.log(error);
-        });
+  const [events, setEvents] = useState();
+  const [popular, setPopular] = useState();
+  const [category, setCategory] = useState();
+  const [city, setCity] = useState();
+  const [search, setSearch] = useState("");
 
-        axios
-        .get("http://localhost:3000/popular/")
-        .then(function (response) {
-          setPopular(response.data);
-          console.log(response.data);
-        })
-        .catch(function (error) {
-          console.log(error);
-        });
-    }, []);
-  
-    return (
-      <div>
-        <NavBar></NavBar>
-        <Filter/>
-        <div className="event-list">
-          {events ? (
+  const [searchCategory, setSearchCategory] = useState(false);
+  const [searchCity, setSearchCity] = useState(false);
+  const [isSearching, setIsSearching] = useState(false);
+  useEffect(() => {
+    axios
+      .get("http://localhost:3000/events/")
+      .then(function (response) {
+        setEvents(response.data);
+        console.log(response.data);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+
+    axios
+      .get("http://localhost:3000/popular/")
+      .then(function (response) {
+        setPopular(response.data);
+        console.log(response.data);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+  }, []);
+
+  return (
+    <div>
+      <NavBar></NavBar>
+      <Filter
+        setIsSearching={setIsSearching}
+        setCategory={setCategory}
+        setCity={setCity}
+        setSearchCategory={setSearchCategory}
+        setSearchCity={setSearchCity}
+        setSearch={setSearch}
+      />
+      <div className="event-list">
+        {events ? (
+          !isSearching ? (
             events.map((item) => (
               <Event
-                id = {item.id}
+                id={item.id}
                 key={item.id}
                 url={item.url}
                 name={item.name}
@@ -51,16 +66,40 @@ function Home() {
               ></Event>
             ))
           ) : (
-            <div>Yükleniyor..</div>
-          )}
-        </div>
-       
-        <div className="slider-container">
-          <h1 style={{textAlign: "center"}}>Popüler Etkinlikler</h1>
-          <Slider urls={popular}/>
-        </div>
+            events
+              .filter((item) => {
+                return (
+                  (!searchCategory || category === item.category) &&
+                  (!searchCity || city === item.city) &&
+                  (item.name.toLowerCase().includes(search.toLowerCase()) || item.people.toLowerCase().includes(search.toLowerCase()))
+                );
+              })
+              .map((item) => (
+                <Event
+                  id={item.id}
+                  key={item.id}
+                  url={item.url}
+                  name={item.name}
+                  category={item.category}
+                  place={item.place}
+                  city={item.city}
+                  startdate={item.startdate}
+                  enddate={item.enddate}
+                  address={item.address}
+                ></Event>
+              ))
+          )
+        ) : (
+          <div>Yükleniyor..</div>
+        )}
       </div>
-    );
+
+      <div className="slider-container">
+        <h1 style={{ textAlign: "center" }}>Popüler Etkinlikler</h1>
+        <Slider urls={popular} />
+      </div>
+    </div>
+  );
 }
 
-export default Home
+export default Home;

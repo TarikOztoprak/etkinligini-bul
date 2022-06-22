@@ -12,7 +12,9 @@ function Details() {
   const [event, setEvent] = useState();
   const [events, setEvents] = useState();
 
-  let counter = 0; 
+  let rand1 = Math.floor(Math.random() * 8);
+  let rand2 = Math.floor(Math.random() * 8);
+  let rand3 = Math.floor(Math.random() * 8);
 
   useEffect(() => {
     axios
@@ -42,12 +44,21 @@ function Details() {
       <div className="details-container">
         {event ? (
           <div className="details">
-            <Slider urls={event.url}/>
+            <Slider urls={event.url} />
             <CategoryBadge category={event.category} />
             <h3>{event.name}</h3>
             <p className="content">{event.content}</p>
+            <ul>
+              🎫 Bilet Fiyatları
+              {event.price.map((item, key) => (
+                <li key={key}>
+                  {" "}
+                  {key + 1}. Kategori {item} TL
+                </li>
+              ))}
+            </ul>
             <p>
-            📅 {event.startdate} - {event.enddate}
+              📅 {event.startdate} - {event.enddate}
             </p>{" "}
             <p>
               {event.place}, {event.city}
@@ -64,25 +75,33 @@ function Details() {
         ) : (
           <p>Yükleniyor...</p>
         )}
-        <div className="suggestions">
-          <h1>Şunlara da Göz Atın</h1>
-          {events ? (
-            events.filter(item => {return item.id < 3}).map((item) => (
-              <Event
-                id={item.id}
-                key={item.id}
-                url={item.url}
-                name={item.name}
-                category={item.category}
-                place={item.place}
-                city={item.city}
-                startdate={item.startdate}
-                enddate={item.enddate}
-              ></Event>
-            ))
-          ) : (
-            <div>Yükleniyor..</div>
-          )}
+        <div className="suggestions-container">
+          <div className="suggestions">
+            <h1>Önerilen Etkinlikler</h1>
+            {events ? (
+              events
+                .filter((item) => {
+                  return (
+                    item.id == rand1 || item.id == rand2 || item.id == rand3
+                  );
+                })
+                .map((item) => (
+                  <Event
+                    id={item.id}
+                    key={item.id}
+                    url={item.url}
+                    name={item.name}
+                    category={item.category}
+                    place={item.place}
+                    city={item.city}
+                    startdate={item.startdate}
+                    enddate={item.enddate}
+                  ></Event>
+                ))
+            ) : (
+              <div>Yükleniyor..</div>
+            )}
+          </div>
         </div>
       </div>
     </div>
