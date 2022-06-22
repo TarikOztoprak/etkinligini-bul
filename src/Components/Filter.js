@@ -6,10 +6,11 @@ function Search(setIsSearching) {
 function Clean(setIsSearching) {
   setIsSearching(false);
 }
+
 function Filter(props) {
   return (
     <div className="filter">
-      <input className="filter-item" type="date" onChange={e => console.log(e.target.value)}></input>
+      <input className="filter-item" type="date" onChange={e => {props.setDate(e.target.value) ; props.setSearchDate(true); console.log(e.target.value)}}></input>
 
       <select onChange={(e) => {props.setCity(e.target.value) ; props.setSearchCity(true)}} className="filter-item">
         <option selected disabled>Şehir</option>

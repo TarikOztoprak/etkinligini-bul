@@ -5,16 +5,27 @@ import Slider from "../Components/Slider";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import "../Assets/Styles/Home.css";
+
+function DateFilter(start, end, date) {
+  console.log(start);
+  console.log(end);
+  console.log(date);
+  return date >= start && date <= end;
+}
+
 function Home() {
   const [events, setEvents] = useState();
   const [popular, setPopular] = useState();
   const [category, setCategory] = useState();
   const [city, setCity] = useState();
   const [search, setSearch] = useState("");
+  const [date, setDate] = useState();
 
+  const [searchDate, setSearchDate] = useState();
   const [searchCategory, setSearchCategory] = useState(false);
   const [searchCity, setSearchCity] = useState(false);
   const [isSearching, setIsSearching] = useState(false);
+
   useEffect(() => {
     axios
       .get("http://localhost:3000/events/")
@@ -47,6 +58,8 @@ function Home() {
         setSearchCategory={setSearchCategory}
         setSearchCity={setSearchCity}
         setSearch={setSearch}
+        setDate={setDate}
+        setSearchDate={setSearchDate}
       />
       <div className="event-list">
         {events ? (
@@ -71,7 +84,9 @@ function Home() {
                 return (
                   (!searchCategory || category === item.category) &&
                   (!searchCity || city === item.city) &&
-                  (item.name.toLowerCase().includes(search.toLowerCase()) || item.people.toLowerCase().includes(search.toLowerCase()))
+                  (item.name.toLowerCase().includes(search.toLowerCase()) ||
+                    item.people.toLowerCase().includes(search.toLowerCase())) &&
+                  (!searchDate || DateFilter(item.startdate, item.enddate, date))
                 );
               })
               .map((item) => (
